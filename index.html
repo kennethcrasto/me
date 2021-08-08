@@ -27,7 +27,7 @@
         }
 
         .border-md-right {
-            border-right: 1px solid silver;
+            border-right: 1px solid rgb(255, 255, 255);
         }
 
         @media (max-width: 768px) {
@@ -40,11 +40,17 @@
 
         .navbar {
             opacity: 1;
+            background-color: rgb(0, 173, 204);
+        }
+
+        img.rounded-corners{
+            border-radius: 50px;
         }
     </style>
     <div class="container">
         <br>
-        <nav class="navbar navbar-expand-sm navbar-dark rounded" style="background-color: #0095ff;">
+        <nav class="navbar navbar-expand-sm navbar-dark rounded">
+            <img src="images/kazuma.svg" class="rounded-corners">
             <a class="navbar-brand" href="#"><strong>Kenneth Crasto</strong></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -54,48 +60,35 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <br>
-                    <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://discord.com/users/722686459508686900"><img
-                                    src="images/discord.svg"> Discord</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active border-md-right">
+                        <a class="nav-link" href="https://discord.com/users/722686459508686900"><img
+                                src="images/discord.svg"> Discord</a>
+                    </li>
                     <br>
-                    <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://www.reddit.com/user/exorcist174"><img
-                                    src="images/reddit.svg">
-                                Reddit</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active border-md-right">
+                        <a class="nav-link" href="https://www.reddit.com/user/exorcist174"><img src="images/reddit.svg">
+                            Reddit</a>
+                    </li>
                     <br>
-                    <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://twitter.com/CrastoKenneth"><img src="images/twitter.svg">
-                                Twitter</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active border-md-right">
+                        <a class="nav-link" href="https://twitter.com/CrastoKenneth"><img src="images/twitter.svg">
+                            Twitter</a>
+                    </li>
                     <br>
-                    <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://osu.ppy.sh/users/22771430"><img src="images/osu.svg" />
-                                osu!</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active border-md-right">
+                        <a class="nav-link" href="https://osu.ppy.sh/users/22771430"><img src="images/osu.svg" />
+                            osu!</a>
+                    </li>
                     <br>
-                     <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://myanimelist.net/profile/ken69420"><span class="iconify"
-                                    data-icon="simple-icons:myanimelist"></span> MyAnimeList</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active border-md-right">
+                        <a class="nav-link" href="https://myanimelist.net/profile/ken69420"><span class="iconify"
+                                data-icon="simple-icons:myanimelist"></span> MyAnimeList</a>
+                    </li>
                     <br>
-                    <button type="button" class="btn btn-primary align-self-auto text-left">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://open.spotify.com/user/o34eup7t9og0gke3iseqdyxyl"><img
-                                    src="images/spotify.svg"> Spotify</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://open.spotify.com/user/o34eup7t9og0gke3iseqdyxyl"><img
+                                src="images/spotify.svg"> Spotify</a>
+                    </li>
                     <br>
                 </ul>
             </div>
