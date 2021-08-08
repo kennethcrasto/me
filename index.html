@@ -11,13 +11,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    
+
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <style>
         body {
@@ -26,16 +27,20 @@
         }
 
         .border-md-right {
-  border-right: 1px solid silver;
-}
+            border-right: 1px solid silver;
+        }
 
-@media (max-width: 768px) {
+        @media (max-width: 768px) {
 
-  .border-md-right {
-    border-right: none;
-  }
+            .border-md-right {
+                border-right: none;
+            }
 
-}
+        }
+
+        .navbar {
+            opacity: 1;
+        }
     </style>
     <div class="container">
         <br>
@@ -43,11 +48,9 @@
             <a class="navbar-brand" href="#"><strong>Kenneth Crasto</strong></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg></button>
+                aria-label="Toggle navigation">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/circled-chevron-down.png"/>
+            </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <br>
@@ -59,16 +62,10 @@
                     </button>
                     <br>
                     <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.reddit.com/user/exorcist174"><img src="images/reddit.svg">
-                            Reddit</a>
-                    </li>
-                    </button>
-                    <br>
-                    <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
                         <li class="nav-item active">
-                            <a class="nav-link" href="https://myanimelist.net/profile/ken69420"><span class="iconify"
-                                    data-icon="simple-icons:myanimelist"></span> MyAnimeList</a>
+                            <a class="nav-link" href="https://www.reddit.com/user/exorcist174"><img
+                                    src="images/reddit.svg">
+                                Reddit</a>
                         </li>
                     </button>
                     <br>
@@ -86,6 +83,13 @@
                         </li>
                     </button>
                     <br>
+                     <button type="button" class="btn btn-primary align-self-auto text-left border-md-right">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://myanimelist.net/profile/ken69420"><span class="iconify"
+                                    data-icon="simple-icons:myanimelist"></span> MyAnimeList</a>
+                        </li>
+                    </button>
+                    <br>
                     <button type="button" class="btn btn-primary align-self-auto text-left">
                         <li class="nav-item active">
                             <a class="nav-link" href="https://open.spotify.com/user/o34eup7t9og0gke3iseqdyxyl"><img
@@ -96,6 +100,10 @@
                 </ul>
             </div>
         </nav>
+        <br>
+        <div class="main">
+            <h2>example header text</h2>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
