@@ -85,6 +85,15 @@
             <h2>
                 im too lazy to optimize this for 16:9
             </h2>
+            <p id="belowHeader" class="belowheader">
+                pls dont view in landscape bro wtf cringe +_+
+                <br>
+                you still have time to fix this.... 
+                <br>
+                switch to portrait to remove this annoying text man 
+                <br>
+                pls for faeks sake
+            </p>
         </div>
     </div>
     <!-- Optional JavaScript -->
@@ -107,12 +116,6 @@
     <br>
 
     <div>
-        <style>
-            p {
-                color: rgb(83, 83, 83);
-                text-align: center;
-            }
-        </style>
         <p>
             <i>
                 pain
@@ -122,6 +125,10 @@
     <script>
         if (window.innerWidth >= window.innerHeight) {
             alert("pls view this on a phone man wtf");
+        }
+         
+        if (window.innerWidth < window.innerHeight) {
+            const elmnt = document.getElementById("belowHeader"); elmnt.remove();
         }
     </script>
 </body>
