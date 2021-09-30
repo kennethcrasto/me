@@ -29,3 +29,14 @@ p.main {
     text-align: right;
     color: rgb(128, 128, 128);
 }
+
+p.belowheader {
+    color: rgb(83, 83, 83);
+    text-align: left;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(83, 83, 83);
+    text-align: center;
+}
