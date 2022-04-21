@@ -36,7 +36,22 @@
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <img src="assets/images/ddmenu.svg" />
+                <div class="hamburger" onclick="this.classList.toggle('active')">
+                    <svg width="56" height="60" viewBox="0 0 200 200">
+                        <g stroke-width="6.5" stroke-linecap="round">
+                            <path d="M72 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+                            <path
+                                d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                                fill="none" stroke="#fff" />
+                            <path d="M72 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+                            <path
+                                d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                                fill="none" stroke="#fff" />
+                            <path d="M100.75 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+                            <path d="M100.75 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+                        </g>
+                    </svg>
+                </div>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -45,7 +60,7 @@
                         <a class="nav-link" href="https://discord.com/users/722686459508686900"><img
                                 src="assets/images/discord.svg"> Discord</a>
                     </li>
-                    <br> 
+                    <br>
                     <li class="nav-item active border-md-right">
                         <a class="nav-link" href="https://www.strava.com/athletes/94897272"><img
                                 src="assets/images/strava.svg"> Strava</a>
@@ -78,7 +93,7 @@
                         <a class="nav-link" href="https://youtu.be/dQw4w9WgXcQ"><img src="assets/images/youtube.svg">
                             YouTube</a>
                     </li>
-                                        <br>
+                    <br>
                 </ul>
             </div>
         </nav>
