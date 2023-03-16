@@ -82,3 +82,14 @@ p {
 .ham4.active .bottom {
   stroke-dashoffset: -68px;
 }
+
+.ok {
+  width:inherit;
+  position: absolute;
+  bottom:0;
+}
+
+.oke {
+  position: relative;
+  padding: auto;
+}
